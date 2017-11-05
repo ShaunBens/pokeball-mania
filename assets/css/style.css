@@ -1,0 +1,30 @@
+body,
+html {
+    height: 100%;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("../images/pokebg.jpg");
+    opacity: 1;
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.panel-transparent {
+    background: none;
+}
+
+.panel-heading {
+    background: rgba(122, 130, 136, 0.2)!important;
+}
+
+.panel-body {
+    background: rgba(46, 51, 56, 0.2)!important;
+}
